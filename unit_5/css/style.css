@@ -19,13 +19,7 @@ a{
 header{
   padding-top: 40px;
 }
-aside{
-  float: left;
-  width: 440px;
-  text-align: right;
-  height: 180px;
-  margin-right: 20px;
-}
+
 nav{
   display: inline-block;
   padding-top: 30px;
@@ -39,7 +33,13 @@ nav{
   float:left;
   text-transform: uppercase;
 }
-
+aside{
+  float: left;
+  width: 440px;
+  text-align: right;
+  height: 180px;
+  margin-right: 20px;
+}
 p{
   color: #FFFFFF;
 }
