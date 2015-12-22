@@ -1,0 +1,266 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100;400,700,900,300);
+
+body {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+header {
+  background-image: url("../images/blured_cover.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: auto;
+  padding: 1.8em;
+}
+
+.logo {
+  margin: 1.8em auto 4em;
+  display: block;
+}
+
+.kutip {
+  margin: 2em auto;
+  display: block;
+  text-align: center;
+}
+
+h2 {
+  margin: 1.5em;
+  font-size: 1.5em;
+  font-weight: 100;
+  color: #FFFFFF;
+}
+
+.navigation {
+  display: inline-block;
+  margin: 3em auto 4em;
+}
+
+a.nav_portfolio, a.nav_portfolio:hover, a.nav_hire, a.nav_hire:hover {
+  text-decoration: none;
+  padding: .6em 1.5em;
+  font-family: roboto, serif;
+  font-weight: 100;
+  font-size: 1.4em;
+}
+
+a.nav_portfolio {
+  margin-right: 5px;
+  color: #FFFFFF;
+  border: 1px solid #ffffff;
+}
+a.nav_portfolio:hover {
+  margin-right: 5px;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+a.nav_hire {
+  margin-left: 5px;
+  color: #FFFFFF;
+  background-color: #00C864;
+}
+
+a.nav_hire:hover {
+  margin-left: 5px;
+  color: #FFFFFF;
+  background-color: #009A35;
+}
+
+#works {
+  margin: 0 auto 40px auto;
+  max-width: 1500px;
+}
+
+.image_container {
+  margin: 0;
+  float: left;
+  text-align: left;
+  width: 33.33%;
+  /*height: 500px;*/
+  position: relative;
+}
+
+.image_container img {
+  margin: 0 0 0 -5px;
+  float: left;
+  text-align: left;
+  width: 100%;
+  /*height: 500px;*/
+  position: relative;
+}
+
+.text{
+  z-index: 100;
+  position: absolute;
+  /*color: white;
+  font-size: 24px;
+  font-weight: bold;*/
+  left: 20px;
+  top: 20px;
+}
+
+h1 {
+   font-size: 1.6em;
+   font-weight: 400;
+   color: #000000;
+}
+
+h3 {
+  font-size: 1em;
+  font: 300;
+  color: #656565;
+}
+
+h4 {
+  font-size: 2em;
+  font-weight: 700;
+  color: #656565;
+}
+
+p {
+  color: #666666;
+  line-height: 1.8em;
+}
+
+.mywork_introduction {
+  margin: 40px auto;
+}
+
+footer {
+  height: 250px;
+  background-color: #e6e6e6;
+}
+
+.footer_text {
+  text-align: auto;
+  margin: 40px auto;
+ }
+
+h6 {
+  font-size: 2em;
+  font-weight: 700;
+  color: #656565;
+  margin-top: 30px;
+}
+
+
+a {
+  text-decoration: none;
+  color: #00C864;
+}
+
+#buttonfb, #buttontw {
+  margin: 2px;
+}
+
+@media only screen and (max-width:1500px) and (min-width:1000px) {
+    #works {
+      margin: 0;
+      /*max-width: 1000px;*/
+    }
+    .image_container img{
+        margin: 0;
+        float: left;
+        text-align: left;
+        width: 100%;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width:1000px) and (min-width:800px) {
+    #works {
+      margin: 0;
+      /*max-width: 1000px;*/
+    }
+    .image_container img{
+        margin: 0;
+        float: left;
+        text-align: left;
+        width: 100%;
+        position: relative;
+    }
+    body {
+      font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #works {
+      margin: 0;
+      /*max-width: 1000px;*/
+    }
+    .image_container {
+        margin: 0;
+        float: left;
+        text-align: left;
+        width: 50%;
+        position: relative;
+    }
+
+    .image_container img {
+        margin: 0 0 0 0;
+        float: left;
+        text-align: left;
+        width: 100%;
+        position: relative;
+    }
+
+    body {
+      font-size: 13px;
+    }
+    h1 {
+       font-size: 1.2em;
+       font-weight: 400;
+       color: #000000;
+}
+
+@media only screen and (max-width: 460px) {
+    #works {
+      margin: 0 auto 0 auto;
+      /*max-width: 1000px;*/
+    }
+    .image_container {
+        margin: 0;
+        float: left;
+        text-align: left;
+        width: 100%;
+        position: relative;
+    }
+
+    .image_container img {
+        margin: 0 0 0 0;
+        float: left;
+        text-align: left;
+        width: 100%;
+        position: relative;
+    }
+    body {
+      font-size: 13px;
+    }
+    /*h1 {
+       font-size: 1.3em;
+       font-weight: 400;
+       color: #000000;
+    }
+
+    h2 {
+      font-size: 1.2em;
+    }*/
+}
